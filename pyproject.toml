@@ -16,3 +16,5 @@ dependencies = [
 
 [project.scripts]
 simple-text-mcp = "server:main"
+[tool.hatch.build.targets.wheel]
+packages = ["."]
