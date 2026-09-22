@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "simple-text-mcp-server"
+version = "0.1.0"
+description = "A minimal MCP server with a simple text echo tool."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["mcp>=1.2.0"]
+
+[project.scripts]
+simple-text-mcp = "simple_mcp_server.server:main"
