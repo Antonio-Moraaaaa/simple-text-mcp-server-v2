@@ -15,4 +15,4 @@ dependencies = [
 ]
 
 [project.scripts]
-simple-text-mcp = "simple_mcp_server.server:main"
+simple-text-mcp = "server:main"
